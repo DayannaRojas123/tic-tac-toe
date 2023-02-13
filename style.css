@@ -1,0 +1,223 @@
+
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin:0;
+  
+}
+
+html{
+    height: 100%;
+    width: 100%;
+
+}
+
+#footer{
+    text-align:center;
+	opacity:0.5;
+	width:100%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+}
+
+#ganas{
+    display: flex;
+    position: absolute;
+    margin-top: -377px;
+    margin-left: 90px;
+    font-size: 85px;
+    font-weight: 900;
+
+}
+#pierdes{
+    display: flex;
+    position: absolute;
+    margin-top: -377px;
+    margin-left: 90px;
+    font-size: 85px;
+    font-weight: 900;
+
+}
+#empatas{
+    display: flex;
+    position: absolute;
+    margin-top: -377px;
+    margin-left: 90px;
+    font-size: 85px;
+    font-weight: 900;
+
+}
+
+#main{
+
+
+    display: grid;
+   grid-template-areas: 
+
+"reinicio reinicio reinicio"
+"ficha1 ficha2 ficha3"
+"ficha4 ficha5 ficha6"
+"ficha7 ficha8 ficha9"
+
+"footer footer footer"
+
+   ;
+  
+  
+    grid-template-columns:max-content;
+    grid-template-rows: max-content;
+   gap: 10px;
+   justify-items: center;
+   justify-content: center;
+   background-color: darksalmon;
+
+}
+
+#main div{
+       
+border-radius: 20px;
+box-shadow:dimgray 5px 5px 20px ;
+
+
+}
+#footer{
+
+    grid-area: footer;
+}
+
+#reinicio{
+    grid-area: reinicio;
+  
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    background-color: darksalmon;
+}
+
+
+
+#ficha0{
+
+    background-color:gainsboro;
+font-size: 50px;
+font-weight: 700;
+color: blueviolet;
+    grid-area: ficha1;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+}
+#ficha1{
+background-color:gainsboro;
+    grid-area: ficha2;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#ficha2{
+background-color:gainsboro;
+    grid-area: ficha3;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#ficha3{
+background-color:gainsboro;
+    grid-area: ficha4;
+   font-size: 50px;
+   font-weight: 700;
+   color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ficha4{
+background-color:gainsboro;
+    grid-area: ficha5;
+font-size: 50px;
+font-weight: 700;
+color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ficha5{
+background-color:gainsboro;
+    grid-area: ficha6;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ficha6{
+background-color:gainsboro;
+    grid-area: ficha7;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ficha7{
+background-color:gainsboro;
+    grid-area: ficha8;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ficha8{
+background-color:gainsboro;
+    grid-area: ficha9;
+    font-size: 50px;
+    font-weight: 700;
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
